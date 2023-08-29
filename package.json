@@ -1,20 +1,41 @@
 {
-  "name": "@homee/react-native-mapbox-navigation",
-  "title": "React Native Mapbox Navigation",
-  "version": "2.0.1",
+  "_from": "@homee/react-native-mapbox-navigation",
+  "_id": "@homee/react-native-mapbox-navigation@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ZORQsezRds20p8jc2c+bIiVZ9o6NIptbhjnDQ6IsOn4UzeXt0qAQnR6WzMj3tEsMjMyJAtPVJBkjfyyiOW9GIw==",
+  "_location": "/@homee/react-native-mapbox-navigation",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@homee/react-native-mapbox-navigation",
+    "name": "@homee/react-native-mapbox-navigation",
+    "escapedName": "@homee%2freact-native-mapbox-navigation",
+    "scope": "@homee",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@homee/react-native-mapbox-navigation/-/react-native-mapbox-navigation-1.1.0.tgz",
+  "_shasum": "e91f0019c178be9d23379a06f75e08ba77f3798c",
+  "_spec": "@homee/react-native-mapbox-navigation",
+  "_where": "/Users/kendal/development/germanTaxi/driver/melih/driver_v3",
+  "bugs": {
+    "url": "https://github.com/homeeondemand/react-native-mapbox-navigation/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Smart Mapbox turn-by-turn routing based on real-time traffic for React Native.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "source": "src/index",
-  "scripts": {
-    "prepublishOnly": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x",
+    "typescript": "4.3.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/homeeondemand/react-native-mapbox-navigation.git",
-    "baseUrl": "https://github.com/homeeondemand/react-native-mapbox-navigation.git"
-  },
+  "homepage": "https://github.com/homeeondemand/react-native-mapbox-navigation#readme",
   "keywords": [
     "react-native",
     "mapbox",
@@ -22,18 +43,22 @@
   ],
   "license": "MIT",
   "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/homeeondemand/react-native-mapbox-navigation/issues"
-  },
-  "homepage": "https://github.com/homeeondemand/react-native-mapbox-navigation#readme",
+  "main": "dist/index.js",
+  "name": "@homee/react-native-mapbox-navigation",
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
   },
-  "devDependencies": {
-    "react": "17.0.2",
-    "react-native": "0.66.4",
-    "typescript": "4.3.5"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homeeondemand/react-native-mapbox-navigation.git",
+    "baseUrl": "https://github.com/homeeondemand/react-native-mapbox-navigation.git"
+  },
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "title": "React Native Mapbox Navigation",
+  "types": "dist/index.d.ts",
+  "version": "1.1.0"
 }
